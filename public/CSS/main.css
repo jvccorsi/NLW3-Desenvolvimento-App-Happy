@@ -1,0 +1,22 @@
+/*Reset na Margin do site!*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /*Define o tamanho da fonte */
+  font-size: 63%;
+}
+body {
+  height: 100vh;
+  color: white;
+}
+body,
+input,
+button,
+textarea {
+  font-size: 1.8rem; /*1.8 do tamanho padrao da fonte(root) */
+  line-height: 1; /*Espaçamento de linha*/
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
